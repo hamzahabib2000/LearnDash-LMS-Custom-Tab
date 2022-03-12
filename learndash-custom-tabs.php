@@ -166,7 +166,6 @@ add_filter(
     function( $tabs = array(), $context = '', $course_id = 0, $user_id = 0 ) {
         $post_id = get_the_ID();
         $user_id = get_current_user_id();
-        $post_id = 42;
         $meta_query = array(
                 'relation' => 'AND',
             );
